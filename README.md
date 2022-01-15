@@ -1,16 +1,17 @@
 # Hip-hop Instrumental Classifier
 
-## Purpose: To better understand the music I produce, the music I listen to, and their relationship to one another.
+### Purpose: To better understand the music I produce, the music I listen to, and their relationship to one another.
 
 
 
 
-#### Technologies Used: Tableau (exploratory data analysis/visualization), Data Science Toolkit (Pandas, Scikit-learn, Matplotlib, etc.), Keras (Artificial N.N.)
 
 
 
 
 ## Data Collection:
+
+#### Technologies Used: Spotipy, Python Data Science Toolkit
 
 1. I created a Spotify client to communicate with their Web API and fetch data. 
 <img src="https://user-images.githubusercontent.com/56245127/149641053-cc8a3dc8-f086-439b-9fba-b3d44129ba44.jpg"  width="400" />
@@ -25,6 +26,8 @@
 
 ## EDA:
 
+#### Technologies Used: Tableau, Excel
+
 The goal was to not only explore relationships between audio features of my favorite songs, but also recognize similarities/differences between the audio feature data of my beats and my favorite songs.
 
 <img src="https://user-images.githubusercontent.com/56245127/149640850-56ea000f-2622-4e76-8d2f-d4db83958712.jpg"  width="200" height="200" />
@@ -32,7 +35,7 @@ The goal was to not only explore relationships between audio features of my favo
 
 
 
-#### [Tableau Presentation](https://public.tableau.com/views/MyMusicandMyFavoriteArtistsMusic/JointAnalysisofMyMusicandMyFavoriteArtistsMusic?:language=en-US&:display_count=n&:origin=viz_share_link)
+#### [Presentation](https://public.tableau.com/views/MyMusicandMyFavoriteArtistsMusic/JointAnalysisofMyMusicandMyFavoriteArtistsMusic?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 In this short presentation, I chose to focus on four main aspects of the data:
 1. Am I more likely to listen to artists based on how much their music leverages the minor scale?
@@ -47,8 +50,8 @@ In this short presentation, I chose to focus on four main aspects of the data:
 
 
 
+## Building a Multiclass Classification Artificial Neural Network
 
-
-
+#### Technologies Used: Keras/Tensorflow, Scikit-learn, Python Data Science Toolkit 
 
 
