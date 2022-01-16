@@ -13,12 +13,15 @@
 #### Technologies Used: Spotipy, Python Data Science Toolkit
 
 1. I created a Spotify client to communicate with their Web API and fetch data. 
-<img src="https://user-images.githubusercontent.com/56245127/149641053-cc8a3dc8-f086-439b-9fba-b3d44129ba44.jpg"  width="400" />
+<img src="https://user-images.githubusercontent.com/56245127/149641053-cc8a3dc8-f086-439b-9fba-b3d44129ba44.jpg"  width="300" />
 
 2. I set up a Jupyter Notebook and created a spotipy.Spotify instance, through which I could explore the entire API. 
-<img src="https://user-images.githubusercontent.com/56245127/149641188-19d11c3e-e833-4ab0-bc0f-ce2e71d5e486.jpg"  width="400" />
+<img src="https://user-images.githubusercontent.com/56245127/149641188-19d11c3e-e833-4ab0-bc0f-ce2e71d5e486.jpg"  width="300" />
 
-3. I gathered all song data into a Pandas dataframe (refer to Jupyter Notebook) and exported it to csv (for future usage).
+3. I determined my top artists (streamed) using https://www.statsforspotify.com/. I edited this list to include artists I thought were influential to my production style.
+<img src="https://user-images.githubusercontent.com/56245127/149644928-03b0c7b6-ddab-4515-9d1c-496f23bb3019.jpg"  width="300" />
+
+4. I gathered all song data into a Pandas dataframe (refer to Jupyter Notebook) and exported it to csv (for future usage).
 
 
 
