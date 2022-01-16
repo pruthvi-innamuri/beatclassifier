@@ -1,9 +1,8 @@
 # Hip-hop Instrumental Classifier
 
-### Purpose: To better understand the music I produce, the music I listen to, and their relationship to one another.
-
-
-
+### Purpose
+1. To better understand the music I produce, the music I listen to, and their relationship to one another.
+2. Build a functioning A.N.N. classifier that categorizes my self-produced instrumentals into related/relevant artist.
 
 
 
