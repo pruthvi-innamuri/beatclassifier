@@ -4,6 +4,12 @@
 #### [My Spotify](https://open.spotify.com/artist/4gtbYuWL3jPmNndg8H6bsW?si=MaBUis3eQQSoi6s9KlQQew)
 
 
+### Premise
+
+A new wave in music that is shaping how artists search for instrumentals to use is "Type Beats". This is especially apparent in hip-hop. Searching for 
+"__Insert your favorite artist__" type beat on Youtube or Spotify will yield dozens of results of instrumentals similar to the sound of your artist.
+
+
 ### Purpose
 1. To better understand the music I produce, the music I listen to, and their relationship to one another.
 2. Build a functioning A.N.N. classifier that categorizes my self-produced instrumentals into related/relevant artist.
@@ -79,7 +85,7 @@ My biggest takeaway from building this classifier was to always __scale input va
 
 ### Full Classifier
 
-Using the same A.N.N. as before, but with categorical crossentropy loss function, I trained and tested my classifier on the data. I was reach hardly 10% accuracy. Instead of brute force guessing the ideal hyperparameters myself, I used Sklearn's GridSearch functionality. GridSearch allows me to provide a function that builds an A.N.N. and provide a variety of different hyperparameters (like batch_size, # of nodes, # of layers, activation function, etc.) and it will determine the optimal combination of hyperparameters.
+Using the same A.N.N. as before, but with categorical crossentropy loss function, I trained and tested my classifier on the data. I was reach hardly 10% accuracy. Instead of brute force guessing the ideal hyperparameters myself, I used Sklearn's GridSearch functionality. GridSearch allows me to provide a function that builds an A.N.N. and provide a variety of different hyperparameters (like batch_size, # of nodes, # of layers, activation function, etc.) and it will determine the optimal combination of hyperparameters. I guessed a large number of nodes and layers to capture the data's complexity. 
 
 Since this function requires extra processing power and takes a while, I sped up the process by running it in Google Colab with a GPU hardware accelerator.
 
