@@ -79,7 +79,7 @@ hidden layers to prevent overfitting. Dropout helped increase the overall accura
 My biggest takeaway from building this classifier was to always __scale input variables__. This increased my overall train/test accuracy by 20%.
 
 
-#### [Jupyter Notebook](https://github.com/pruthvi-innamuri/beatclassifier/blob/ea86bd16f9a7242de275b91d2aca6d38c0f908ed/preprocessingandbinaryclassification.ipynb)
+#### [Jupyter Notebook](https://github.com/pruthvi-innamuri/beatclassifier/blob/59c9182f9156a1d772617a8e88a80ab135b3f346/preprocessingandbinarymodel.ipynb)
 
 #### [Binary Model - 92% Accuracy](https://github.com/pruthvi-innamuri/beatclassifier/blob/ea86bd16f9a7242de275b91d2aca6d38c0f908ed/binaryclassificationninetyfour.h5)
 
