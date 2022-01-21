@@ -1,9 +1,12 @@
 # Hip-hop Instrumental Classifier
 
+
+#### [My Spotify](https://open.spotify.com/artist/4gtbYuWL3jPmNndg8H6bsW?si=MaBUis3eQQSoi6s9KlQQew)
+
+
 ### Purpose
 1. To better understand the music I produce, the music I listen to, and their relationship to one another.
 2. Build a functioning A.N.N. classifier that categorizes my self-produced instrumentals into related/relevant artist.
-
 
 
 
@@ -55,5 +58,34 @@ In this short presentation, I chose to focus on four main aspects of the data:
 ## Building a Multiclass Classification Artificial Neural Network
 
 #### Technologies Used: Keras/Tensorflow, Scikit-learn, Python Data Science Toolkit 
+
+I followed a two step process in building this classifier:
+1. Build a simple binary classifier to familiarize myself with Keras tools and the data
+2. Scale the binary classifier architecture to handle multiclass classification
+
+### Binary Classifier (Classifying songs as closer to Drake's music or NAV's)
+
+I referred to online forums and articles for an example A.N.N. architecture to build off of. Through hours of testing and tinkering with hyperparameters, 
+I learned their unique effects on a model's loss and accuracy. Firstly, I added an extra layer to my A.N.N. to capture the depth of relationships within the data.
+Secondly, I increased the number of nodes as well since I noticed my training loss decreasing till the very end. Lastly, I added dropout between the first and second
+hidden layers to prevent overfitting. Dropout helped increase the overall accuracy. 
+
+My biggest takeaway from building this classifier was to always __scale input variables__. This increased my overall train/test accuracy by 20%.
+
+
+#### [Jupyter Notebook](https://public.tableau.com/views/MyMusicandMyFavoriteArtistsMusic/JointAnalysisofMyMusicandMyFavoriteArtistsMusic?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+
+
+### Full Classifier
+
+Using the same A.N.N. as before, but with categorical crossentropy loss function, I trained and tested my classifier on the data. I was reach hardly 10% accuracy. Instead of brute force guessing the ideal hyperparameters myself, I used Sklearn's GridSearch functionality. GridSearch allows me to provide a function that builds an A.N.N. and provide a variety of different hyperparameters (like batch_size, # of nodes, # of layers, activation function, etc.) and it will determine the optimal combination of hyperparameters.
+
+Since this function requires extra processing power and takes a while, I sped up the process by running it in Google Colab with a GPU hardware accelerator.
+
+
+#### [Google Colab](https://colab.research.google.com/drive/1rdsstVpDfWT5Tvjhs2BIBQdhfURWkJLp?usp=sharing)
+
+
 
 
