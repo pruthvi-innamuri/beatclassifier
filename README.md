@@ -4,10 +4,10 @@
 #### [My Spotify](https://open.spotify.com/artist/4gtbYuWL3jPmNndg8H6bsW?si=MaBUis3eQQSoi6s9KlQQew)
 
 
-### Premise
+## Background
 
-A new wave in music that is shaping how artists search for instrumentals to use is "Type Beats". This is especially apparent in hip-hop. Searching for 
-"__Insert your favorite artist__" type beat on Youtube or Spotify will yield dozens of results of instrumentals similar to the sound of your artist.
+A new wave in music shaping how artists, especially hip-hop artists, search for instrumentals is "Type Beats". "Type Beats" refer to instrumentals that fit a specific 
+well-known artist's sound. For example, a quick search on Youtube for "Drake Type Beat" will yield thousands of results of instrumentals similar to Drake's sound. This classification of beats into a specific artist(s) is particularly effective for producers to convey the musical character of their tracks'. I wanted to see if I could use machine learning to classify my beats for me!
 
 
 ### Purpose
