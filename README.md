@@ -81,7 +81,7 @@ My biggest takeaway from building this classifier was to always __scale input va
 
 #### [Jupyter Notebook](https://github.com/pruthvi-innamuri/beatclassifier/blob/ea86bd16f9a7242de275b91d2aca6d38c0f908ed/preprocessingandbinaryclassification.ipynb)
 
-#### [Binary Model - 94% Accuracy](https://github.com/pruthvi-innamuri/beatclassifier/blob/ea86bd16f9a7242de275b91d2aca6d38c0f908ed/binaryclassificationninetyfour.h5)
+#### [Binary Model - 92% Accuracy](https://github.com/pruthvi-innamuri/beatclassifier/blob/ea86bd16f9a7242de275b91d2aca6d38c0f908ed/binaryclassificationninetyfour.h5)
 
 
 
